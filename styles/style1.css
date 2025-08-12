@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(252, 119, 137);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: smaller;
+}
+
+.parte1{
+    
+}
+
+.parte2{
+    display: flex;
+}
