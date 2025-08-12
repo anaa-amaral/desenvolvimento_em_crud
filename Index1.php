@@ -14,9 +14,11 @@
 
             <div class="parte2">
                 <h2> Conheça nosso novo produto! Um delicioso cupcake sabor frutas vermelhas e cobertura sabor chocolate branco.</h2>
-                <href>
+                <img class="cupcake" src="assets/cupcake.png" alt="foto de um cupcake">
 
             </div>
+
+        <img class="frutas" src="assets/frutas.png" alt="foto de frutas vermelhas">
 
         </div>
     
