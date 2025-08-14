@@ -29,6 +29,11 @@ body{
     margin: 0% 5% 0% 5%;
 }
 
+.parte4{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .text{
     font-size: x-small;
 }
@@ -68,11 +73,6 @@ hr.new {
   height: 1px;
   border-top: 1px solid rgb(179, 50, 93);
   padding: 0;
-}
-
-.parte4{
-    display: flex;
-    justify-content: space-evenly;
 }
 
 #circulo {
