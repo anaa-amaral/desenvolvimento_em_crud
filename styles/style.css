@@ -62,3 +62,54 @@ hr.new {
     margin-left: 5%;
     font-size: 50px;
 }
+
+.logo2{
+    width: 220px;
+    height: 90px;
+    padding-bottom: 50px;
+}
+
+.parte4{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#circulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(139, 49, 61);;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+#flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+
+.icones{
+    display: flex;
+    width: 30px;
+    height: 30px;
+}
+
+.icones2{
+    display: flex;
+    width: 40px;
+    height: 30px;
+}
+
+.letraP{
+    padding: 0px;
+    margin: 0px;
+    font-size: small;
+    text-align: center;
+}
+
+.titulo{
+    text-align: center;
+}
