@@ -36,6 +36,24 @@
     
     <hr class="new">
 
+        <div class="p-3 m-0 border-0 bd-example m-0 border-0">
+        <div class="card" style="width: 18rem;">
+            <img src="../assets/croassaint_imagem.jpg" class="card-img-top" alt="Crsoissant">
+        <div class="card-body">
+            <h5 class="card-title">
+                <font dir="auto" style="vertical-align: inherit;">
+
+                <font dir="auto" style="vertical-align: inherit;">Croissant</font></font></h5>
+            <p class="card-text">
+                <font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">
+                    <strong>R$ 7,99</strong>Um croissant tamanho médio, fazemos na hora, para uma pessoa.</font></font></p>
+            <a href="#" class="btn btn-primary"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Adicionar ao carrinho</font></font></a>
+        </div>
+        </div>
+</div>
+
+    <hr class="new">
+
     <img class="logo2" src="assets/logo.png" alt="">
 
     <div class="parte4">
