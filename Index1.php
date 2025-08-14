@@ -26,10 +26,6 @@
 
             </div>
 
-    
-
-    <hr class="new">
-
     </div>
     
 </body>

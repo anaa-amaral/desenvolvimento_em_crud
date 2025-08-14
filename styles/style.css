@@ -47,11 +47,3 @@ body{
     height: 400px;
     margin: 0% 0% 1% 7%;
 }
-
-hr.new1 {
-   margin: 80px;
-   border: 0;
-   height: 1px;
-   border-top: 1px solid rgb(179, 50, 93);
-   padding: 0;
-}
