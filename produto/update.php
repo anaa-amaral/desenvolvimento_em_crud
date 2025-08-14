@@ -42,7 +42,7 @@
 </head>
 <body>
     <h2>Editar produto</h2>
-    <form action="editar.php?id=<?= $id ?>" method="post">
+    <form action="update.php?id=<?= $id ?>" method="post">
         <label for="nomeProduto">Nome:</label>
         <input type="text" name="nomeProduto" value="<?= $dado['nome'] ?>" id="nome">
         <label for="descricaoProduto">Descrição:</label>
