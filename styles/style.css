@@ -5,6 +5,12 @@ body{
     font-size: smaller;
 }
 
+.logo{
+    width: 220px;
+    height: 90px;
+    padding-bottom: 50px;
+}
+
 .parte1{
     align-items: center;
 }
@@ -38,7 +44,7 @@ body{
 .cupcake{
     width: 500px;
     height: 400px;
-    margin: 0% 7% 1% 10%;
+    margin: 0% 0% 1% 7%;
 }
 
 hr.new1 {
