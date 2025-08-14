@@ -10,7 +10,7 @@
     
 </head>
 
-<body class="p-3 m-0 border-0 bd-example m-0 border-0">
+<div class="p-3 m-0 border-0 bd-example m-0 border-0">
     <div class="card" style="width: 18rem;">
         <img src="../assets/croassaint_imagem.jpg" class="card-img-top" alt="Crsoissant">
       <div class="card-body">
@@ -24,4 +24,8 @@
         <a href="#" class="btn btn-primary"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Adicionar ao carrinho</font></font></a>
       </div>
     </div>
+</div>
+
+
   </body>
+  </html>
