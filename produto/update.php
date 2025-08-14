@@ -10,10 +10,10 @@
         $dado = mysqli_fetch_assoc($res);
 
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
-            $nome = $_POST["nome"];
-            $descricao = $_POST["descricao"];
-            $preco = $_POST["preco"];
-            $quantidade = $_POST["quantidade_estoque"];
+            $nome = $_POST["nomeProduto"];
+            $descricao = $_POST["descricaoProduto"];
+            $preco = $_POST["precoProduto"];
+            $quantidade = $_POST["quantidadeProduto"];
 
             $stmt2 = $conn->prepare("UPDATE produtos SET nome=?, descricao=?, preco=?, quantidade_estoque=? WHERE id_produto=?");
             $stmt2->bind_param("ssdii", $nome, $descricao, $preco, $quantidade, $id);
