@@ -27,6 +27,10 @@
             </div>
 
     </div>
+
+    <hr class="new">
+
+    <h1 class="text4"><strong> Promoções do dia <strong></h1><br>
     
 </body>
 </html>
