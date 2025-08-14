@@ -9,33 +9,20 @@
         echo "<table border ='1'>
             <tr>
                 <th> Nome </th>
+                <th> Descrição </th>
                 <th> Preço </th>
-                <th> Lote </th>
-                <th> Data de Validade </th>
-                <th> Glúten </th>
-                <th> Lactose </th>
-                <th> Registrado por </th>
+                <th> Quantidade em estoque </th>
                 <th> Ações </th>
             </tr>";
 
     while ($row = $result->fetch_assoc()) {
-        $textoGluten = 'Não';
-        $textoLactose = 'Não';
-        if($row['gluten'] == 1){
-            $textoGluten = 'Sim';
-        }
-        if($row['lactose'] == 1){
-            $textoLactose = 'Sim';
-        }
 
         echo "<tr>
-            <td> {$row['name']} </td>
+            <td> {$row['nome']} </td>
+            <td> {$row['descricao']} </td>
             <td> {$row['preco']} </td>
-            <td> {$row['lote']} </td>
-            <td> {$row['validade']} </td>
-            <td> " . $textoGluten . " </td>
-            <td> " . $textoLactose . " </td>
-            <td> {$row['id_user']} </td>
+            <td> {$row['quantidade_estoque']} </td>
+            <td> {$row['id_usuario']} </td>
             <td> 
                 <a href='../pedido/create.php?idproduto={$row['id']}'>Registrar pedido<a>
                 <a href='update.php?id={$row['id']}'>Editar produto<a>
