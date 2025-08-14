@@ -2,15 +2,15 @@ body{
     background-color: rgb(245, 113, 131);
 }
 
-.logo{
-    width: 260px;
-    height: 100px;
+.logo2{
+    width: 220px;
+    height: 90px;
     padding-bottom: 50px;
 }
 
 .parte4{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 #circulo {
@@ -36,6 +36,19 @@ body{
     height: 30px;
 }
 
+.icones2{
+    display: flex;
+    width: 40px;
+    height: 30px;
+}
+
 .letraP{
+    padding: 0px;
+    margin: 0px;
     font-size: small;
+    text-align: center;
+}
+
+.titulo{
+    text-align: center;
 }
