@@ -7,3 +7,35 @@ body{
     height: 100px;
     padding-bottom: 50px;
 }
+
+.parte4{
+    display: flex;
+    justify-content: space-around;
+}
+
+#circulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(139, 49, 61);;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+#flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+
+.icones{
+    display: flex;
+    width: 30px;
+    height: 30px;
+}
+
+.letraP{
+    font-size: small;
+}
