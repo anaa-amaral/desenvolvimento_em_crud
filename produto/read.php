@@ -25,7 +25,7 @@
             <td> {$row['quantidade_estoque']} </td>
             <td> {$row['nome_usuario']} </td>
             <td> 
-                <a href='../pedido/create.php?idproduto={$row['id_produtos']}'>Registrar pedido<a>
+                <a href='../pedido/adicionarAoCarrinho.php?idproduto={$row['id_produtos']}'>Adicionar ao carrinho<a>
                 <a href='update.php?id={$row['id_produtos']}'>Editar produto<a>
                 <a href='delete.php?id={$row['id_produtos']}'>Excluir produto<a>
             </td>
