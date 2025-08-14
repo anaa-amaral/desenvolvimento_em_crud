@@ -25,8 +25,8 @@ body{
 }
 
 .text2{
-    margin-right: 10%;
-    margin-left:   10%;
+    margin-right: 5%;
+    margin-left:   5%;
 }
 
 .frutas{
@@ -37,14 +37,14 @@ body{
 
 .cupcake{
     width: 500px;
-    height: 320px;
-    margin: 0% 7% 1% 7%;
+    height: 400px;
+    margin: 0% 7% 1% 10%;
 }
 
 hr.new1 {
-  margin: 80px;
-  border: 0;
-  height: 1px;
-  border-top: 1px solid rgb(179, 50, 93);
-  padding: 0;
+   margin: 80px;
+   border: 0;
+   height: 1px;
+   border-top: 1px solid rgb(179, 50, 93);
+   padding: 0;
 }
