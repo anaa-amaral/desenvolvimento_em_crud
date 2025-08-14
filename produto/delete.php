@@ -4,7 +4,7 @@
     if(isset($_GET['id'])){
         $id = $_GET['id'];
         if($_SERVER['REQUEST_METHOD'] == 'POST'){
-            $stmt = $conn->prepare("DELETE FROM produtos WHERE id_produto = ?");
+            $stmt = $conn->prepare("DELETE FROM produtos WHERE id_produtos = ?");
             $stmt->bind_param("i", $id);
             $stmt->execute();
             header("Location: ../index.php");

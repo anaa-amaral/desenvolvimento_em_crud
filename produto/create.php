@@ -8,7 +8,7 @@
         $quantidade = $_POST["quantidadeProduto"];
         $id_usuario = 1;
 
-        $stmt = $conn->prepare("INSERT INTO produtos (nome, descricao, preco, quantidade_estoque, id_usuario) VALUES (?, ?, ?, ?, ?)");
+        $stmt = $conn->prepare("INSERT INTO produtos (nome, descricao, preco, quantidade_estoque, id_usuarios) VALUES (?, ?, ?, ?, ?)");
         $stmt->bind_param("ssdii", $nome, $descricao, $preco, $quantidade, $id_usuario);
         if ($stmt->execute()) {
             echo "Produto cadastrado com sucesso!";

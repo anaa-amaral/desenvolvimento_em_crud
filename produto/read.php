@@ -22,11 +22,11 @@
             <td> {$row['descricao']} </td>
             <td> {$row['preco']} </td>
             <td> {$row['quantidade_estoque']} </td>
-            <td> {$row['id_usuario']} </td>
+            <td> {$row['id_usuarios']} </td>
             <td> 
-                <a href='../pedido/create.php?idproduto={$row['id']}'>Registrar pedido<a>
-                <a href='update.php?id={$row['id']}'>Editar produto<a>
-                <a href='delete.php?id={$row['id']}'>Excluir produto<a>
+                <a href='../pedido/create.php?idproduto={$row['id_produtos']}'>Registrar pedido<a>
+                <a href='update.php?id={$row['id_produtos']}'>Editar produto<a>
+                <a href='delete.php?id={$row['id_produtos']}'>Excluir produto<a>
             </td>
             </tr>";
     }

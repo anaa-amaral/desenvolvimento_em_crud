@@ -3,7 +3,7 @@
 
     if(isset($_GET['id'])){
         $id = $_GET['id'];
-        $stmt = $conn->prepare("SELECT * FROM produtos WHERE id_produto = ?");
+        $stmt = $conn->prepare("SELECT * FROM produtos WHERE id_produtos = ?");
         $stmt->bind_param("i", $id);
         $stmt->execute();
         $res = $stmt->get_result();
@@ -15,7 +15,7 @@
             $preco = $_POST["precoProduto"];
             $quantidade = $_POST["quantidadeProduto"];
 
-            $stmt2 = $conn->prepare("UPDATE produtos SET nome=?, descricao=?, preco=?, quantidade_estoque=? WHERE id_produto=?");
+            $stmt2 = $conn->prepare("UPDATE produtos SET nome=?, descricao=?, preco=?, quantidade_estoque=? WHERE id_produtos=?");
             $stmt2->bind_param("ssdii", $nome, $descricao, $preco, $quantidade, $id);
             if ($stmt2->execute()) {
                 header("Location: index.php");
