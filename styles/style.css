@@ -12,7 +12,7 @@ body{
 .parte2{
     display: flex;
     align-items: center;
-    margin: 0% 0% 1% 5%;
+    margin: 0% 5% 0% 5%;
 }
 
 .text{
@@ -21,10 +21,12 @@ body{
 
 .text1{
     margin-right: 5%;
+    margin-left: 5%;
 }
 
 .text2{
-    margin-left: 5%;
+    margin-right: 10%;
+    margin-left:   10%;
 }
 
 .frutas{
@@ -34,7 +36,15 @@ body{
 }
 
 .cupcake{
-    width: 220px;
-    height: 250px;
+    width: 500px;
+    height: 320px;
     margin: 0% 7% 1% 7%;
+}
+
+hr.new1 {
+  margin: 80px;
+  border: 0;
+  height: 1px;
+  border-top: 1px solid rgb(179, 50, 93);
+  padding: 0;
 }

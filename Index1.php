@@ -29,6 +29,8 @@
 
     <img class="frutas" src="assets/frutas.png" alt="foto de frutas">
 
+    <hr class="new">
+
     </div>
     
 </body>
