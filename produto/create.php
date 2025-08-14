@@ -17,7 +17,7 @@
         $id_usuario = 1;
 
         $stmt = $conn->prepare("INSERT INTO produtos (name, preco, lote, validade, gluten, lactose, id_user) VALUES (?, ?, ?, ?, ?, ?, ?)");
-        $stmt->bind_param("sbisiii", $nome, $preco, $lote, $validade, $gluten, $lactose, $id_usuario);
+        $stmt->bind_param("sdisiii", $nome, $preco, $lote, $validade, $gluten, $lactose, $id_usuario);
         if ($stmt->execute()) {
             echo "Produto cadastrado com sucesso!";
         }else{
