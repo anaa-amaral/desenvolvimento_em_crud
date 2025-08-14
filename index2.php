@@ -11,15 +11,53 @@
 
     <img class="logo" src="assets/logo.png" alt="">
 
-    <div class="parte1">
-
-        <h1> Pink Cupcake </h1>
-
-            <div class="parte2">
-                <h2> Conheça nosso novo produto! Um delicioso cupcake sabor frutas vermelhas e cobertura sabor chocolate branco.</h2>
-                <href>
-
+    <div class="parte4">
+         
+    <!--sobre nos-->
+        <div id="flex">
+            <div id="circulo">
+                <img class="icones" src="assets/sobre_nos.png" alt="">
             </div>
+            
+            <h2>Sobre nós</h2>
+            <h2 class="letraP" >Somos uma panificadora rapida e deliciosa</h2>
+        </div>
+    <!--contato-->
+        <div id="flex">
+            <div id="circulo">
+                <img class="icones" src="assets/sobre_nos.png" alt="">
+            </div>
+            
+            <h2>Contato</h2>
+            <h2 class="letraP" >Telefone: (47) 123456789</h2>
+        </div>
+    <!--horário de funcionamento-->
+        <div id="flex">
+            <div id="circulo">
+                <img class="icones" src="assets/sobre_nos.png" alt="">
+            </div>
+            
+            <h2>Horário de funcionamento</h2>
+            <h2 class="letraP" >Segunda a sabado: 08:00 até as 21:00 <br> Domingo: fechado</h2>
+        </div>
+
+        <div id="flex">
+            <div id="circulo">
+                <img class="icones" src="assets/sobre_nos.png" alt="">
+            </div>
+            
+            <h2>Transporte</h2>
+            <h2 class="letraP" >Entregamos para toda joinville em até 15minutos</h2>
+        </div>
+
+        <div id="flex">
+            <div id="circulo">
+                <img class="icones" src="assets/sobre_nos.png" alt="">
+            </div>
+            
+            <h2>Satisfação</h2>
+            <h2 class="letraP">Nos de uma nota para que possamos melhorar</h2>
+        </div>
 
     </div>
     
