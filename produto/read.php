@@ -1,7 +1,7 @@
 <?php
     include '../db.php';
 
-    $sql = 'SELECT * FROM produtos';
+    $sql = 'SELECT produtos.nome, descricao, preco, quantidade_estoque, id_produtos, usuarios.nome AS nome_usuario FROM produtos INNER JOIN usuarios ON produtos.id_usuarios = usuarios.id_usuarios';
     $result = $conn->query($sql);
   
     if ($result->num_rows > 0) {
@@ -12,6 +12,7 @@
                 <th> Descrição </th>
                 <th> Preço </th>
                 <th> Quantidade em estoque </th>
+                <th> Adicionado por </th>
                 <th> Ações </th>
             </tr>";
 
@@ -22,7 +23,7 @@
             <td> {$row['descricao']} </td>
             <td> {$row['preco']} </td>
             <td> {$row['quantidade_estoque']} </td>
-            <td> {$row['id_usuarios']} </td>
+            <td> {$row['nome_usuario']} </td>
             <td> 
                 <a href='../pedido/create.php?idproduto={$row['id_produtos']}'>Registrar pedido<a>
                 <a href='update.php?id={$row['id_produtos']}'>Editar produto<a>
