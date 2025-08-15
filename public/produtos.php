@@ -15,7 +15,7 @@
 
         <div class="p-3 m-0 border-0 bd-example m-0 border-0">
             <div class="card" style="width: 18rem;">
-                <img src="../assets/bolo.jpg" class="card-img-top" alt="Crsoissant">
+                <img src="../assets/bolo.jpg" class="card-img-top">
             <div class="card-body">
                 <h5 class="card-title">
                     <font dir="auto" style="vertical-align: inherit;">
@@ -31,7 +31,7 @@
 
         <div class="p-3 m-0 border-0 bd-example m-0 border-0">
             <div class="card" style="width: 18rem;">
-                <img src="../assets/brigadeiro.jpg" class="card-img-top" alt="Crsoissant">
+                <img src="../assets/brigadeiro.jpg" class="card-img-top">
             <div class="card-body">
                 <h5 class="card-title">
                     <font dir="auto" style="vertical-align: inherit;">
@@ -47,7 +47,7 @@
 
         <div class="p-3 m-0 border-0 bd-example m-0 border-0">
             <div class="card" style="width: 18rem;">
-                <img src="../assets/palha.jpg" class="card-img-top" alt="Crsoissant">
+                <img src="../assets/palha.jpg" class="card-img-top">
             <div class="card-body">
                 <h5 class="card-title">
                     <font dir="auto" style="vertical-align: inherit;">
@@ -69,7 +69,7 @@
 
         <div class="p-3 m-0 border-0 bd-example m-0 border-0">
             <div class="card" style="width: 18rem;">
-                <img src="../assets/bauru.jpg" class="card-img-top" alt="Crsoissant">
+                <img src="../assets/bauru.jpg" class="card-img-top">
             <div class="card-body">
                 <h5 class="card-title">
                     <font dir="auto" style="vertical-align: inherit;">
@@ -85,7 +85,7 @@
 
         <div class="p-3 m-0 border-0 bd-example m-0 border-0">
             <div class="card" style="width: 18rem;">
-                <img src="../assets/coxinha.jpg" class="card-img-top" alt="Crsoissant">
+                <img src="../assets/coxinha.jpg" class="card-img-top">
             <div class="card-body">
                 <h5 class="card-title">
                     <font dir="auto" style="vertical-align: inherit;">
@@ -101,7 +101,7 @@
 
         <div class="p-3 m-0 border-0 bd-example m-0 border-0">
             <div class="card" style="width: 18rem;">
-                <img src="../assets/empada.jpg" class="card-img-top" alt="Crsoissant">
+                <img src="../assets/empada.jpg" class="card-img-top">
             <div class="card-body">
                 <h5 class="card-title">
                     <font dir="auto" style="vertical-align: inherit;">
@@ -123,7 +123,7 @@
 
         <div class="p-3 m-0 border-0 bd-example m-0 border-0">
             <div class="card" style="width: 18rem;">
-                <img src="../assets/bolo.jpg" class="card-img-top" alt="Crsoissant">
+                <img src="../assets/bolo.jpg" class="card-img-top">
             <div class="card-body">
                 <h5 class="card-title">
                     <font dir="auto" style="vertical-align: inherit;">
@@ -139,7 +139,7 @@
 
         <div class="p-3 m-0 border-0 bd-example m-0 border-0">
             <div class="card" style="width: 18rem;">
-                <img src="../assets/brigadeiro.jpg" class="card-img-top" alt="Crsoissant">
+                <img src="../assets/brigadeiro.jpg" class="card-img-top">
             <div class="card-body">
                 <h5 class="card-title">
                     <font dir="auto" style="vertical-align: inherit;">
@@ -155,7 +155,7 @@
 
         <div class="p-3 m-0 border-0 bd-example m-0 border-0">
             <div class="card" style="width: 18rem;">
-                <img src="../assets/palha.jpg" class="card-img-top" alt="Crsoissant">
+                <img src="../assets/palha.jpg" class="card-img-top">
             <div class="card-body">
                 <h5 class="card-title">
                     <font dir="auto" style="vertical-align: inherit;">
