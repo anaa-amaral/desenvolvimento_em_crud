@@ -45,6 +45,7 @@ if(isset($_SESSION['carrinho'])){
 }else{
     echo 'O carrinho está vazio!';
 }
+echo "<br> <a href='meusPedidos.php?id=1'>Visualizar meus pedidos</a>";
 
 ?>
 
