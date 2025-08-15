@@ -68,21 +68,51 @@
 
     <h1 class="text4"><strong> Promoções do dia <strong></h1><br>
 
-    <div class="container">
-        <div class="card-wrapper">
-            <ul class="card-list">
-                <li class="card-list">
-                    <img class="card-image" src="assets/bolo.jpg" alt="">
-                    <h2>bolo linduu</h2>
-                    <button class="card-button">
-                        <img src="assets/seta-esquerda.png" alt="">
-                        
-                    </button>
-                </li>
-
-            </ul>
+   <div id="carrosseis">
+        <button class="seta esquerda">&#10094;</button>
+        <div class="carousel">
+            <div class="card">
+                <img src="assets/bolo.jpg" alt="">
+                <h3><em>Nome do doce</em></h3>
+                <p>RATATATATATA TATAATATATAT</p>
+            </div>
+            <div class="card">
+                <img src="assets/bolo.jpg" alt="">
+                <h3><em>Nome do doce</em></h3>
+                <p>RATATATATATA TATAATATATAT</p>
+            </div>
+            <div class="card">
+                <img src="assets/bolo.jpg" alt="">
+                <h3><em>Nome do doce</em></h3>
+                <p>RATATATATATA TATAATATATAT</p>
+            </div>
+            <div class="card">
+                <img src="assets/bolo.jpg" alt="">
+                <h3><em>Nome do doce</em></h3>
+                <p>RATATATATATA TATAATATATAT</p>
+            </div>
+            <div class="card">
+                <img src="assets/bolo.jpg" alt="">
+                <h3><em>Nome do doce</em></h3>
+                <p>RATATATATATA TATAATATATAT</p>
+            </div>
+            <div class="card">
+                <img src="assets/bolo.jpg" alt="">
+                <h3><em>Nome do doce</em></h3>
+                <p>RATATATATATA TATAATATATAT</p>
+            </div>
+            <div class="card">
+                <img src="assets/bolo.jpg" alt="">
+                <h3><em>Nome do doce</em></h3>
+                <p>RATATATATATA TATAATATATAT</p>
+            </div>
+            <div class="card">
+                <img src="assets/bolo.jpg" alt="">
+                <h3><em>Nome do doce</em></h3>
+                <p>RATATATATATA TATAATATATAT</p>
+            </div>
         </div>
-
+        <button class="seta direita">&#10095;</button>
     </div>
 
     <hr class="new">
