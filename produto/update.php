@@ -1,43 +1,9 @@
-<?php
-    include '../db.php';
-
-    if(isset($_GET['id'])){
-        $id = $_GET['id'];
-        $stmt = $conn->prepare("SELECT * FROM produtos WHERE id_produtos = ?");
-        $stmt->bind_param("i", $id);
-        $stmt->execute();
-        $res = $stmt->get_result();
-        $dado = mysqli_fetch_assoc($res);
-
-        if ($_SERVER["REQUEST_METHOD"] == "POST") {
-            $nome = $_POST["nomeProduto"];
-            $descricao = $_POST["descricaoProduto"];
-            $preco = $_POST["precoProduto"];
-            $quantidade = $_POST["quantidadeProduto"];
-
-            $stmt2 = $conn->prepare("UPDATE produtos SET nome=?, descricao=?, preco=?, quantidade_estoque=? WHERE id_produtos=?");
-            $stmt2->bind_param("ssdii", $nome, $descricao, $preco, $quantidade, $id);
-            if ($stmt2->execute()) {
-                header("Location: ../public/produtos.php");
-            }else{
-                echo "Erro ao cadastrar!";
-            }
-        }
-        if (!$dado) {
-            die("Usuário não encontrado.");
-        }
-    }else{
-        header("Location: ../public/produtos.php");
-    }
-    
-
-        
-?>
 
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
     <title>Editar produto</title>
 </head>
 <body>
@@ -53,5 +19,39 @@
         <input type="number" name="quantidadeProduto" value="<?= $dado['quantidade_estoque'] ?>" id="quantidade">
         <button type="submit">Editar Produto</button>
     </form>
+
+    <?php
+        include '../db.php';
+
+        if(isset($_GET['id'])){
+            $id = $_GET['id'];
+            $stmt = $conn->prepare("SELECT * FROM produtos WHERE id_produtos = ?");
+            $stmt->bind_param("i", $id);
+            $stmt->execute();
+            $res = $stmt->get_result();
+            $dado = mysqli_fetch_assoc($res);
+
+            if ($_SERVER["REQUEST_METHOD"] == "POST") {
+                $nome = $_POST["nomeProduto"];
+                $descricao = $_POST["descricaoProduto"];
+                $preco = $_POST["precoProduto"];
+                $quantidade = $_POST["quantidadeProduto"];
+
+                $stmt2 = $conn->prepare("UPDATE produtos SET nome=?, descricao=?, preco=?, quantidade_estoque=? WHERE id_produtos=?");
+                $stmt2->bind_param("ssdii", $nome, $descricao, $preco, $quantidade, $id);
+                if ($stmt2->execute()) {
+                    header("Location: ../public/produtos.php");
+                }else{
+                    echo "Erro ao cadastrar!";
+                }
+            }
+            if (!$dado) {
+                die("Usuário não encontrado.");
+            }
+        }else{
+            header("Location: ../public/produtos.php");
+        }
+            
+    ?>
 </body>
 </html>
