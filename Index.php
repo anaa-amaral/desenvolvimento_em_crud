@@ -86,7 +86,7 @@
                 </div>
                 
                 <h2>Sobre nós</h2>
-                <h2 class="letraP">Somos uma panificadora rapida e deliciosa</h2>
+                <h2 class="letraP">Somos uma panificadora rápida e deliciosa</h2>
             </div>
         <!--contato-->
             <div id="flex">
@@ -104,7 +104,7 @@
                 </div>
                 
                 <h2 class="titulo">Horário de funcionamento</h2>
-                <h2 class="letraP" >Segunda a sabado: 08:00 até as 21:00 <br> Domingo: fechado</h2>
+                <h2 class="letraP" >Segunda a sábado: 08:00 até as 21:00 <br> Domingo: fechado</h2>
             </div>
         <!--transporte-->
             <div id="flex">
@@ -122,7 +122,7 @@
                 </div>
                 
                 <h2>Satisfação</h2>
-                <h2 class="letraP">Nos de uma nota para que possamos melhorar</h2>
+                <h2 class="letraP">Deixe a sua nota para que possamos melhorar</h2>
             </div>
 
     </div>
