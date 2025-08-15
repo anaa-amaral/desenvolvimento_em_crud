@@ -13,9 +13,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $sql = "SELECT * FROM produtos WHERE id_produtos=$id_produto";
         $result = $conn->query($sql);
         $qtdEstoque = $result->fetch_assoc()['quantidade_estoque'];
-
-        if($qtdEstoque < $qtd){
-            die('A compra não pode ser concluída pois existem itens com quantidades maiores que o estoque.');
+        if($qtdEstoque < $qtd || $qtd <= 0){
+            die("A compra não pode ser concluída pois existem itens com quantidades maiores que o estoque ou a quantidade é inválida. <a href='../public/carrinho.php'>Voltar</a>");
         }
         $novoQtd = ($qtdEstoque - $qtd);
         $stmt2 = $conn->prepare("UPDATE produtos SET quantidade_estoque=? WHERE id_produtos=?");
