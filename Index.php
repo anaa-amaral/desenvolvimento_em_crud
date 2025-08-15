@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
-    <script src="script.js"></script>></script>
+    <script src="script.js"></script></script>
     <title>Document</title>
     
 </head>
@@ -62,46 +62,6 @@
                 <href>
 
             </div>
-
-    </div>
-
-    <hr class="new">
-
-<!--penultima parte da tela-->
-    <h1 class="text4"><strong> Promoções do dia <strong></h1><br>
-
-   <div id="carrosseis">
-
-        <button class="setaEsquerda" >&#10094;</button>
-
-        <div class="carousel">
-            <div class="card">
-                <img src="assets/bolo.jpg" alt="">
-                <h3><em>Nome do doce</em></h3>
-                <p>RATATATATATA TATAATATATAT</p>
-            </div>
-
-            <div class="card">
-                <img src="assets/bolo.jpg" alt="">
-                <h3><em>Nome do doce</em></h3>
-                <p>RATATATATATA TATAATATATAT</p>
-            </div>
-
-            <div class="card">
-                <img src="assets/bolo.jpg" alt="">
-                <h3><em>Nome do doce</em></h3>
-                <p>RATATATATATA TATAATATATAT</p>
-            </div>
-
-            <div class="card">
-                <img src="assets/bolo.jpg" alt="">
-                <h3><em>Nome do doce</em></h3>
-                <p>RATATATATATA TATAATATATAT</p>
-            </div>
-
-        </div>
-
-        <button class="setaDireita">&#10095;</button>
 
     </div>
 
