@@ -20,6 +20,8 @@
         <button type="submit">Registrar Produto</button>
     </form>
     
+</body>
+</html>
     <?php
         include '../db.php';
 
@@ -39,5 +41,3 @@
             }
         }
     ?>
-</body>
-</html>

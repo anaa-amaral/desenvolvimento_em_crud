@@ -16,6 +16,8 @@
 
     <h1>Meus pedidos</h1>
 
+</body>
+</html>
     <?php
         include '../db.php';
 
@@ -54,15 +56,13 @@
                 </tr>";
         }
         echo "</table>";
-    } else {
-        echo "Nenhum pedido encontrado.";
-    }
-        }else{
-            echo "ID do cliente não definido na URL";
+        } else {
+            echo "Nenhum pedido encontrado.";
         }
-        
+            }else{
+                echo "ID do cliente não definido na URL";
+            }
+            
 
-    $conn -> close();
+        $conn -> close();
     ?>
-</body>
-</html>

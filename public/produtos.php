@@ -22,8 +22,8 @@
 
 <h1 class="text5"><strong> Conheça nossos produtos:<strong></h1><br>
 
-  </body>
-  </html>
+</body>
+</html>
 
   <?php
     include '../db.php';
@@ -32,7 +32,7 @@
     $result = $conn->query($sql);
   
     if ($result->num_rows > 0) {
-echo '<div class="produtos">';
+    echo '<div class="produtos">';
     while ($row = $result->fetch_assoc()) {
 
         echo "<div class='p-3 m-0 border-0 bd-example m-0 border-0'>
@@ -54,9 +54,9 @@ echo '<div class="produtos">';
         </div>";
     }
     echo '</div>';
-} else {
+    } else {
     echo "Nenhum produto encontrado.";
-}
+    }
 
-$conn -> close();
+    $conn -> close();
 ?>

@@ -7,6 +7,8 @@
 </head>
 <body>
     
+</body>
+</html>
     <?php
 
     include '../db.php';
@@ -47,5 +49,3 @@
     }
 
     ?>
-</body>
-</html>

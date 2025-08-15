@@ -16,6 +16,8 @@
         <button type="submit">Aplicar</button>
     </form>
     
+</body>
+</html>
     <?php
         include '../db.php';
 
@@ -49,5 +51,3 @@
 
             
     ?>
-</body>
-</html>

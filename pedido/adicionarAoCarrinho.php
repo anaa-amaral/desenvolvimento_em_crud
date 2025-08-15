@@ -6,6 +6,8 @@
     <title>Document</title>
 </head>
 <body>
+</body>
+</html>
     <?php
         session_start();
 
@@ -16,5 +18,3 @@
         $_SESSION['carrinho'][count($_SESSION['carrinho'])] += $_GET['idproduto'];
         header("Location: ../public/carrinho.php");
     ?>  
-</body>
-</html>

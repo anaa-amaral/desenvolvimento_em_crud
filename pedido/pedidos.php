@@ -17,6 +17,8 @@
 
     <h1>Todos os Pedidos</h1>
     
+</body>
+</html>
     <?php
         include '../db.php';
         
@@ -58,5 +60,3 @@
             
             $conn -> close();
     ?>
-</body>
-</html>

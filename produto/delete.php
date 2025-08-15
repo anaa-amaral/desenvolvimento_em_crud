@@ -13,6 +13,8 @@
         <button type="submit">Excluir</button>
     </form>
     
+</body>
+</html>
     <?php
         include '../db.php';
 
@@ -29,5 +31,3 @@
         }
         
     ?>
-</body>
-</html>

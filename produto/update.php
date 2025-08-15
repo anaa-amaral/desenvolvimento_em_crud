@@ -20,6 +20,8 @@
         <button type="submit">Editar Produto</button>
     </form>
 
+</body>
+</html>
     <?php
         include '../db.php';
 
@@ -53,5 +55,3 @@
         }
             
     ?>
-</body>
-</html>

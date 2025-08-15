@@ -6,6 +6,8 @@
     <title>Document</title>
 </head>
 <body>
+</body>
+</html>
     <h2>Exclusão de pedido</h2>
     <p>Deseja realmente excluir o pedido?</p>
     <form action="" method="post">
@@ -27,5 +29,3 @@
         }
         
     ?>
-</body>
-</html>
