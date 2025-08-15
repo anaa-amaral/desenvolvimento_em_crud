@@ -13,9 +13,7 @@
 <div class="flex">
 
     <a href="../index.php">
-        <h2 class="titulo4">
-            ⬅️
-        </h2><br>
+        <h2 class="titulo4">&#8592;</h2><br>
     </a>
 
     <a href="../produto/create.php" class="btn btn-primary criar"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Criar produto</font></font></a>

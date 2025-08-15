@@ -126,6 +126,7 @@ hr.new {
 .flex{
     display: flex;
     align-items: center;
+    align-items: flex-start;
 }
 
 .titulo{
