@@ -127,6 +127,7 @@ hr.new {
     display: flex;
     align-items: center;
     align-items: flex-start;
+    padding-right: 10px;
 }
 
 .titulo{
