@@ -145,13 +145,15 @@ hr.new {
 }
 
 .opcoes {
-    height: 100%;
+    height: 150%;
     width: 30%;
     position: absolute;
+    top: 10;
+    left: 10;
     background-color:rgb(179, 50, 93);
     color: #ffffff;
     transition: 0.5s ease;
-    transform: translateX(-105%);
+    transform: translateX(-110%);
 }
 
 input:checked~.opcoes {
