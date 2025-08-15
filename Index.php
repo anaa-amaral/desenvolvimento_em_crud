@@ -22,6 +22,18 @@
                     Meus pedidos
                 </h2><br>
             </div>
+
+            <div id="textOpc">
+                <h2 class="tituloOpc">
+                    Carrinho
+                </h2><br>
+            </div>
+
+            <div id="textOpc">
+                <h2 class="tituloOpc">
+                    Produtos
+                </h2><br>
+            </div>
             
         </div>
     </label>
