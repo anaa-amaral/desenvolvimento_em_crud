@@ -8,11 +8,26 @@
 </head>
 <body>
 
-    <div>
-        <img src="assets/imagemAba.png" alt="">
-        <img class="logo" src="assets/logo.png" alt="">
-    </div>
+ <label>
+        <input class="aba" type="checkbox">
+        <div class="toggle" >
+            <img class="icones" src="assets/imagemAba.png" alt="">
+        </div>
 
+        <div class="opcoes">
+            <h2 class="titulo">ABA DE OPÇÕES</h2>
+
+            <div id="textOpc">
+                <h2 class="tituloOpc">
+                    Meus pedidos
+                </h2><br>
+            </div>
+            
+        </div>
+    </label>
+
+    <img class="logo" src="assets/logo.png" alt="">
+    
     <div class="parte1">
 
             <div class="parte2">

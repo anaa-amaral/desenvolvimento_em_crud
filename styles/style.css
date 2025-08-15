@@ -117,3 +117,64 @@ hr.new {
 .produtos{
     display: flex;
 }
+
+.aba {
+    display: none;
+    visibility: hidden;
+    -webkit-appearance: none;
+}
+
+.toggle {
+    position: absolute;
+    top: 20px;
+    left: 45px;
+    height: 30px;
+    width: 30px;
+    z-index: 1;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.opcoes {
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    background-color:rgb(179, 50, 93);
+    color: #ffffff;
+    transition: 0.5s ease;
+    transform: translateX(-105%);
+}
+
+input:checked~.opcoes {
+    transform: translateX(0);
+    box-shadow: 0 0 4px #ffffff;
+}
+
+.opc {
+    font-weight: 400;
+    font-size: 14px;
+    color: #fefefe;
+    padding: 0 0 20px;
+    margin: 0px;
+    display: block;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: 0.2s ease-out;
+}
+
+.tituloOpc {
+    font-size: 16px;
+    padding: 0px;
+    margin: 0px;
+    color: #fefefe;
+    display: block;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: 0.2s ease-out;
+}
+
+#textOpc{
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+}
