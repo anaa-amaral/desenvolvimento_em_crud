@@ -145,8 +145,8 @@ hr.new {
 }
 
 .opcoes {
-    height: 150%;
-    width: 30%;
+    height: 100%;
+    width: 25%;
     position: absolute;
     top: 10;
     left: 10;
