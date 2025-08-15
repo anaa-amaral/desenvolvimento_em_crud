@@ -6,8 +6,13 @@
         <title>Document</title>
     </head>
     <body>
-        <h1>Seu carrinho</h1>
+        <div class="flex">
 
+            <a href="../index.php">
+                <h2 class="titulo4">&#8592;</h2><br>
+            </a>
+
+        </div>
 
     </body>
 </html>
