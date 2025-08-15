@@ -3,6 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
+    <script src="script.js"></script>></script>
     <title>Document</title>
     
 </head>
@@ -71,7 +72,7 @@
 
    <div id="carrosseis">
 
-        <button class="seta esquerda">&#10094;</button>
+        <button class="setaEsquerda" >&#10094;</button>
 
         <div class="carousel">
             <div class="card">
@@ -100,8 +101,8 @@
 
         </div>
 
-        <button class="seta direita">&#10095;</button>
-        
+        <button class="setaDireita">&#10095;</button>
+
     </div>
 
     <hr class="new">
