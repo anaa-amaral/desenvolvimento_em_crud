@@ -6,7 +6,7 @@
         <title>Document</title>
     </head>
     <body>
-        <h1>achou guria ou guri part2</h1>
+        <h1>Seu carrinho</h1>
 
 
     </body>
