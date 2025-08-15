@@ -36,7 +36,6 @@ echo '<div class="produtos">';
 
         echo "<div class='p-3 m-0 border-0 bd-example m-0 border-0'>
             <div class='card' style='width: 18rem;'>
-                <img src='../assets/palha.jpg' class='card-img-top'>
             <div class='card-body'>
                 <h5 class='card-title'>
                     <font dir='auto' style='vertical-align: inherit;'>
