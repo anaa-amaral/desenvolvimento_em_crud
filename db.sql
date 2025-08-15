@@ -45,3 +45,6 @@ CREATE TABLE pedidos(
     FOREIGN KEY (id_clientes) references clientes (id_clientes),
     FOREIGN KEY (id_produtos) references produtos (id_produtos)
 );
+
+INSERT INTO `usuarios` (`id_usuarios`, `nome`, `email`, `senha_hash`, `telefone`, `data_contratação`) VALUES (NULL, 'Usuário de Teste', 'teste@teste.com', '123', '47999999999', CURRENT_TIMESTAMP);
+INSERT INTO `clientes` (`id_clientes`, `nome`, `email`, `telefone`, `endereco`, `data_cadastro`) VALUES (NULL, 'Cliente de Teste', 'teste@cliente.com', '47999999999', 'rua qualquer', '2025-08-15');
