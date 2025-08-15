@@ -123,6 +123,11 @@ hr.new {
     text-align: center;
 }
 
+.titulo4{
+    font-size: 50px;
+    color: #fefefe;
+}
+
 .produtos{
     display: flex;
 }
