@@ -10,6 +10,22 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     foreach ($_POST['quantidade'] as $id => $qtd) {
         $id_produto = $id;
 
+        $sql = "SELECT * FROM produtos WHERE id_produtos=$id_produto";
+        $result = $conn->query($sql);
+        $qtdEstoque = $result->fetch_assoc()['quantidade_estoque'];
+
+        if($qtdEstoque < $qtd){
+            die('A compra não pode ser concluída pois existem itens com quantidades maiores que o estoque.');
+        }
+        $novoQtd = ($qtdEstoque - $qtd);
+        $stmt2 = $conn->prepare("UPDATE produtos SET quantidade_estoque=? WHERE id_produtos=?");
+        $stmt2->bind_param("ii", $novoQtd, $id_produto);
+        $stmt2->execute();
+    }
+
+    foreach ($_POST['quantidade'] as $id => $qtd) {
+        $id_produto = $id;
+
         $stmt = $conn->prepare("INSERT INTO pedidos (id_clientes, id_produtos, quantidade, data_pedido, status) VALUES (?, ?, ?, ?, ?)");
         $stmt->bind_param("iiiss", $id_cliente, $id_produto, $qtd, $data_pedido, $status);
         $stmt->execute();
