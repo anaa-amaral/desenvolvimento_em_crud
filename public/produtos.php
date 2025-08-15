@@ -44,7 +44,8 @@ echo '<div class="produtos">';
                     <font dir='auto' style='vertical-align: inherit;'>{$row['nome']}</font></font></h5>
                 <p class='card-text'>
                     <font dir='auto' style='vertical-align: inherit;'><font dir='auto' style='vertical-align: inherit;'>
-                        <strong>R$ {$row['preco']}</strong><br>{$row['descricao']}</font></font></p>
+                        <strong>R$ {$row['preco']}</strong><br>{$row['descricao']}<br>Em estoque: {$row['quantidade_estoque']}</font></font></p>
+
                 <a href='../pedido/adicionarAoCarrinho.php?idproduto={$row['id_produtos']}' class='btn btn-primary'><font dir='auto' style='vertical-align: inherit;'><font dir='auto' style='vertical-align: inherit;'>Adicionar ao carrinho</font></font></a>
                 <a href='../produto/update.php?id={$row['id_produtos']}' class='btn btn-primary'><font dir='auto' style='vertical-align: inherit;'><font dir='auto' style='vertical-align: inherit;'>Editar</font></font></a>
                 <a href='../produto/delete.php?id={$row['id_produtos']}' class='btn btn-danger'><font dir='auto' style='vertical-align: inherit;'><font dir='auto' style='vertical-align: inherit;'>Excluir</font></font></a>
