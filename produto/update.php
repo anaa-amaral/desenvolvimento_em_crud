@@ -18,7 +18,7 @@
             $stmt2 = $conn->prepare("UPDATE produtos SET nome=?, descricao=?, preco=?, quantidade_estoque=? WHERE id_produtos=?");
             $stmt2->bind_param("ssdii", $nome, $descricao, $preco, $quantidade, $id);
             if ($stmt2->execute()) {
-                header("Location: index.php");
+                header("Location: ../public/produtos.php");
             }else{
                 echo "Erro ao cadastrar!";
             }
@@ -27,7 +27,7 @@
             die("Usuário não encontrado.");
         }
     }else{
-        header("Location: ../index.php");
+        header("Location: ../public/produtos.php");
     }
     
 

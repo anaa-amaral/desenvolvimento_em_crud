@@ -11,7 +11,7 @@
         $stmt = $conn->prepare("INSERT INTO produtos (nome, descricao, preco, quantidade_estoque, id_usuarios) VALUES (?, ?, ?, ?, ?)");
         $stmt->bind_param("ssdii", $nome, $descricao, $preco, $quantidade, $id_usuario);
         if ($stmt->execute()) {
-            echo "Produto cadastrado com sucesso!";
+            header("Location: ../public/produtos.php");
         }else{
             echo "Erro ao cadastrar!";
         }

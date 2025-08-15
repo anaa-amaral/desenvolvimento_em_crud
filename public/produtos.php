@@ -9,166 +9,44 @@
         <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
     
 </head>
-
+<a href="../produto/create.php" class="btn btn-primary"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Criar produto</font></font></a>
 <h1 class="text5"><strong> Doces:<strong></h1><br>
-<div class="produtos">
 
-        <div class="p-3 m-0 border-0 bd-example m-0 border-0">
-            <div class="card" style="width: 18rem;">
-                <img src="../assets/bolo.jpg" class="card-img-top">
-            <div class="card-body">
-                <h5 class="card-title">
-                    <font dir="auto" style="vertical-align: inherit;">
-
-                    <font dir="auto" style="vertical-align: inherit;">Bolo de cenoura</font></font></h5>
-                <p class="card-text">
-                    <font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">
-                        <strong>R$ 12,99</strong><br>Bolo de cenoura com cobertura.</font></font></p>
-                <a href="#" class="btn btn-primary"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Adicionar ao carrinho</font></font></a>
-            </div>
-            </div>
-        </div>
-
-        <div class="p-3 m-0 border-0 bd-example m-0 border-0">
-            <div class="card" style="width: 18rem;">
-                <img src="../assets/brigadeiro.jpg" class="card-img-top">
-            <div class="card-body">
-                <h5 class="card-title">
-                    <font dir="auto" style="vertical-align: inherit;">
-
-                    <font dir="auto" style="vertical-align: inherit;">Brigadeiro</font></font></h5>
-                <p class="card-text">
-                    <font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">
-                        <strong>R$ 2,99</strong><br>Delicioso brigadeiro belga.</font></font></p>
-                <a href="#" class="btn btn-primary"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Adicionar ao carrinho</font></font></a>
-            </div>
-            </div>
-        </div>
-
-        <div class="p-3 m-0 border-0 bd-example m-0 border-0">
-            <div class="card" style="width: 18rem;">
-                <img src="../assets/palha.jpg" class="card-img-top">
-            <div class="card-body">
-                <h5 class="card-title">
-                    <font dir="auto" style="vertical-align: inherit;">
-
-                    <font dir="auto" style="vertical-align: inherit;">Palha Italiana</font></font></h5>
-                <p class="card-text">
-                    <font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">
-                        <strong>R$ 7,99</strong><br>Uma incrível palha italiana sabor oreo.</font></font></p>
-                <a href="#" class="btn btn-primary"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Adicionar ao carrinho</font></font></a>
-            </div>
-            </div>
-        </div>
-
-</div>
-
-
-<h1 class="text5"><strong> Salgados:<strong></h1><br>
-<div class="produtos">
-
-        <div class="p-3 m-0 border-0 bd-example m-0 border-0">
-            <div class="card" style="width: 18rem;">
-                <img src="../assets/bauru.jpg" class="card-img-top">
-            <div class="card-body">
-                <h5 class="card-title">
-                    <font dir="auto" style="vertical-align: inherit;">
-
-                    <font dir="auto" style="vertical-align: inherit;">Bauru</font></font></h5>
-                <p class="card-text">
-                    <font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">
-                        <strong>R$ 12,99</strong><br>Bauru de queijo e presunto.</font></font></p>
-                <a href="#" class="btn btn-primary"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Adicionar ao carrinho</font></font></a>
-            </div>
-            </div>
-        </div>
-
-        <div class="p-3 m-0 border-0 bd-example m-0 border-0">
-            <div class="card" style="width: 18rem;">
-                <img src="../assets/coxinha.jpg" class="card-img-top">
-            <div class="card-body">
-                <h5 class="card-title">
-                    <font dir="auto" style="vertical-align: inherit;">
-
-                    <font dir="auto" style="vertical-align: inherit;">Coxinha</font></font></h5>
-                <p class="card-text">
-                    <font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">
-                        <strong>R$ 9,99</strong><br>Deliciosa coxinha de frango.</font></font></p>
-                <a href="#" class="btn btn-primary"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Adicionar ao carrinho</font></font></a>
-            </div>
-            </div>
-        </div>
-
-        <div class="p-3 m-0 border-0 bd-example m-0 border-0">
-            <div class="card" style="width: 18rem;">
-                <img src="../assets/empada.jpg" class="card-img-top">
-            <div class="card-body">
-                <h5 class="card-title">
-                    <font dir="auto" style="vertical-align: inherit;">
-
-                    <font dir="auto" style="vertical-align: inherit;">Empada</font></font></h5>
-                <p class="card-text">
-                    <font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">
-                        <strong>R$ 7,99</strong><br>Uma incrível empada de camarão.</font></font></p>
-                <a href="#" class="btn btn-primary"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Adicionar ao carrinho</font></font></a>
-            </div>
-            </div>
-        </div>
-
-</div>
-
-
-<h1 class="text5"><strong> Alérgicos:<strong></h1><br>
-<div class="produtos">
-
-        <div class="p-3 m-0 border-0 bd-example m-0 border-0">
-            <div class="card" style="width: 18rem;">
-                <img src="../assets/bolo.jpg" class="card-img-top">
-            <div class="card-body">
-                <h5 class="card-title">
-                    <font dir="auto" style="vertical-align: inherit;">
-
-                    <font dir="auto" style="vertical-align: inherit;">Bolo de cenoura</font></font></h5>
-                <p class="card-text">
-                    <font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">
-                        <strong>R$ 12,99</strong><br>Bolo de cenoura com cobertura.</font></font></p>
-                <a href="#" class="btn btn-primary"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Adicionar ao carrinho</font></font></a>
-            </div>
-            </div>
-        </div>
-
-        <div class="p-3 m-0 border-0 bd-example m-0 border-0">
-            <div class="card" style="width: 18rem;">
-                <img src="../assets/brigadeiro.jpg" class="card-img-top">
-            <div class="card-body">
-                <h5 class="card-title">
-                    <font dir="auto" style="vertical-align: inherit;">
-
-                    <font dir="auto" style="vertical-align: inherit;">Brigadeiro</font></font></h5>
-                <p class="card-text">
-                    <font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">
-                        <strong>R$ 2,99</strong><br>Delicioso brigadeiro belga.</font></font></p>
-                <a href="#" class="btn btn-primary"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Adicionar ao carrinho</font></font></a>
-            </div>
-            </div>
-        </div>
-
-        <div class="p-3 m-0 border-0 bd-example m-0 border-0">
-            <div class="card" style="width: 18rem;">
-                <img src="../assets/palha.jpg" class="card-img-top">
-            <div class="card-body">
-                <h5 class="card-title">
-                    <font dir="auto" style="vertical-align: inherit;">
-
-                    <font dir="auto" style="vertical-align: inherit;">Palha Italiana</font></font></h5>
-                <p class="card-text">
-                    <font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">
-                        <strong>R$ 7,99</strong><br>Uma incrível palha italiana sabor oreo.</font></font></p>
-                <a href="#" class="btn btn-primary"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Adicionar ao carrinho</font></font></a>
-            </div>
-            </div>
-        </div>
-
-</div>
   </body>
   </html>
+
+  <?php
+    include '../db.php';
+
+    $sql = 'SELECT produtos.nome, descricao, preco, quantidade_estoque, id_produtos, usuarios.nome AS nome_usuario FROM produtos INNER JOIN usuarios ON produtos.id_usuarios = usuarios.id_usuarios';
+    $result = $conn->query($sql);
+  
+    if ($result->num_rows > 0) {
+echo '<div class="produtos">';
+    while ($row = $result->fetch_assoc()) {
+
+        echo "<div class='p-3 m-0 border-0 bd-example m-0 border-0'>
+            <div class='card' style='width: 18rem;'>
+                <img src='../assets/palha.jpg' class='card-img-top'>
+            <div class='card-body'>
+                <h5 class='card-title'>
+                    <font dir='auto' style='vertical-align: inherit;'>
+
+                    <font dir='auto' style='vertical-align: inherit;'>{$row['nome']}</font></font></h5>
+                <p class='card-text'>
+                    <font dir='auto' style='vertical-align: inherit;'><font dir='auto' style='vertical-align: inherit;'>
+                        <strong>R$ {$row['preco']}</strong><br>{$row['descricao']}</font></font></p>
+                <a href='../pedido/adicionarAoCarrinho.php?idproduto={$row['id_produtos']}' class='btn btn-primary'><font dir='auto' style='vertical-align: inherit;'><font dir='auto' style='vertical-align: inherit;'>Adicionar ao carrinho</font></font></a>
+                <a href='../produto/update.php?id={$row['id_produtos']}' class='btn btn-primary'><font dir='auto' style='vertical-align: inherit;'><font dir='auto' style='vertical-align: inherit;'>Editar</font></font></a>
+                <a href='../produto/delete.php?id={$row['id_produtos']}' class='btn btn-danger'><font dir='auto' style='vertical-align: inherit;'><font dir='auto' style='vertical-align: inherit;'>Excluir</font></font></a>
+            </div>
+            </div>
+        </div>";
+    }
+    echo '</div>';
+} else {
+    echo "Nenhum produto encontrado.";
+}
+
+$conn -> close();
+?>
