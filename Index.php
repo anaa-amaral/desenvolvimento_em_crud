@@ -15,12 +15,14 @@
         </div>
 
         <div class="opcoes">
-            <h2 class="titulo">ABA DE OPÇÕES</h2>
+            <h2 class="titulo">ABA DE OPÇÕES</h2><br>
 
             <div id="textOpc">
-                <h2 class="tituloOpc">
+                <a href="public/meusPedidos.php">
+                    <h2 class="tituloOpc">
                     Meus pedidos
-                </h2><br>
+                    </h2><br>
+                </a>
             </div>
 
             <div id="textOpc">
