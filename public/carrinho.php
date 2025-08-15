@@ -6,7 +6,7 @@
         <title>Document</title>
     </head>
     <body>
-        <h1>achou guria ou guri part2</h1>
+        <h1>Seu carrinho</h1>
 
 
     </body>
@@ -48,4 +48,10 @@ if(isset($_SESSION['carrinho'])){
 echo "<br> <a href='meusPedidos.php?id=1'>Visualizar meus pedidos</a>";
 
 ?>
+
+<a href="pedidos.php">
+        <h1>
+            Ver status do meu pedido
+        </h1><br>
+</a>
 
