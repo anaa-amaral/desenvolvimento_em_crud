@@ -20,10 +20,10 @@
                 <h5 class="card-title">
                     <font dir="auto" style="vertical-align: inherit;">
 
-                    <font dir="auto" style="vertical-align: inherit;">Croissant</font></font></h5>
+                    <font dir="auto" style="vertical-align: inherit;">Bolo de cenoura</font></font></h5>
                 <p class="card-text">
                     <font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">
-                        <strong>R$ 7,99</strong>Um croissant tamanho médio, fazemos na hora, para uma pessoa.</font></font></p>
+                        <strong>R$ 12,99</strong><br>Bolo de cenoura com cobertura.</font></font></p>
                 <a href="#" class="btn btn-primary"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Adicionar ao carrinho</font></font></a>
             </div>
             </div>
@@ -36,10 +36,10 @@
                 <h5 class="card-title">
                     <font dir="auto" style="vertical-align: inherit;">
 
-                    <font dir="auto" style="vertical-align: inherit;">Croissant</font></font></h5>
+                    <font dir="auto" style="vertical-align: inherit;">Brigadeiro</font></font></h5>
                 <p class="card-text">
                     <font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">
-                        <strong>R$ 7,99</strong>Um croissant tamanho médio, fazemos na hora, para uma pessoa.</font></font></p>
+                        <strong>R$ 2,99</strong><br>Delicioso brigadeiro belga.</font></font></p>
                 <a href="#" class="btn btn-primary"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Adicionar ao carrinho</font></font></a>
             </div>
             </div>
@@ -52,10 +52,118 @@
                 <h5 class="card-title">
                     <font dir="auto" style="vertical-align: inherit;">
 
-                    <font dir="auto" style="vertical-align: inherit;">Croissant</font></font></h5>
+                    <font dir="auto" style="vertical-align: inherit;">Palha Italiana</font></font></h5>
                 <p class="card-text">
                     <font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">
-                        <strong>R$ 7,99</strong>Um croissant tamanho médio, fazemos na hora, para uma pessoa.</font></font></p>
+                        <strong>R$ 7,99</strong><br>Uma incrível palha italiana sabor oreo.</font></font></p>
+                <a href="#" class="btn btn-primary"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Adicionar ao carrinho</font></font></a>
+            </div>
+            </div>
+        </div>
+
+</div>
+
+
+<h1 class="text5"><strong> Salgados:<strong></h1><br>
+<div class="produtos">
+
+        <div class="p-3 m-0 border-0 bd-example m-0 border-0">
+            <div class="card" style="width: 18rem;">
+                <img src="../assets/bolo.jpg" class="card-img-top" alt="Crsoissant">
+            <div class="card-body">
+                <h5 class="card-title">
+                    <font dir="auto" style="vertical-align: inherit;">
+
+                    <font dir="auto" style="vertical-align: inherit;">Bolo de cenoura</font></font></h5>
+                <p class="card-text">
+                    <font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">
+                        <strong>R$ 12,99</strong><br>Bolo de cenoura com cobertura.</font></font></p>
+                <a href="#" class="btn btn-primary"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Adicionar ao carrinho</font></font></a>
+            </div>
+            </div>
+        </div>
+
+        <div class="p-3 m-0 border-0 bd-example m-0 border-0">
+            <div class="card" style="width: 18rem;">
+                <img src="../assets/brigadeiro.jpg" class="card-img-top" alt="Crsoissant">
+            <div class="card-body">
+                <h5 class="card-title">
+                    <font dir="auto" style="vertical-align: inherit;">
+
+                    <font dir="auto" style="vertical-align: inherit;">Brigadeiro</font></font></h5>
+                <p class="card-text">
+                    <font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">
+                        <strong>R$ 2,99</strong><br>Delicioso brigadeiro belga.</font></font></p>
+                <a href="#" class="btn btn-primary"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Adicionar ao carrinho</font></font></a>
+            </div>
+            </div>
+        </div>
+
+        <div class="p-3 m-0 border-0 bd-example m-0 border-0">
+            <div class="card" style="width: 18rem;">
+                <img src="../assets/palha.jpg" class="card-img-top" alt="Crsoissant">
+            <div class="card-body">
+                <h5 class="card-title">
+                    <font dir="auto" style="vertical-align: inherit;">
+
+                    <font dir="auto" style="vertical-align: inherit;">Palha Italiana</font></font></h5>
+                <p class="card-text">
+                    <font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">
+                        <strong>R$ 7,99</strong><br>Uma incrível palha italiana sabor oreo.</font></font></p>
+                <a href="#" class="btn btn-primary"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Adicionar ao carrinho</font></font></a>
+            </div>
+            </div>
+        </div>
+
+</div>
+
+
+<h1 class="text5"><strong> Alérgicos:<strong></h1><br>
+<div class="produtos">
+
+        <div class="p-3 m-0 border-0 bd-example m-0 border-0">
+            <div class="card" style="width: 18rem;">
+                <img src="../assets/bolo.jpg" class="card-img-top" alt="Crsoissant">
+            <div class="card-body">
+                <h5 class="card-title">
+                    <font dir="auto" style="vertical-align: inherit;">
+
+                    <font dir="auto" style="vertical-align: inherit;">Bolo de cenoura</font></font></h5>
+                <p class="card-text">
+                    <font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">
+                        <strong>R$ 12,99</strong><br>Bolo de cenoura com cobertura.</font></font></p>
+                <a href="#" class="btn btn-primary"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Adicionar ao carrinho</font></font></a>
+            </div>
+            </div>
+        </div>
+
+        <div class="p-3 m-0 border-0 bd-example m-0 border-0">
+            <div class="card" style="width: 18rem;">
+                <img src="../assets/brigadeiro.jpg" class="card-img-top" alt="Crsoissant">
+            <div class="card-body">
+                <h5 class="card-title">
+                    <font dir="auto" style="vertical-align: inherit;">
+
+                    <font dir="auto" style="vertical-align: inherit;">Brigadeiro</font></font></h5>
+                <p class="card-text">
+                    <font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">
+                        <strong>R$ 2,99</strong><br>Delicioso brigadeiro belga.</font></font></p>
+                <a href="#" class="btn btn-primary"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Adicionar ao carrinho</font></font></a>
+            </div>
+            </div>
+        </div>
+
+        <div class="p-3 m-0 border-0 bd-example m-0 border-0">
+            <div class="card" style="width: 18rem;">
+                <img src="../assets/palha.jpg" class="card-img-top" alt="Crsoissant">
+            <div class="card-body">
+                <h5 class="card-title">
+                    <font dir="auto" style="vertical-align: inherit;">
+
+                    <font dir="auto" style="vertical-align: inherit;">Palha Italiana</font></font></h5>
+                <p class="card-text">
+                    <font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">
+                        <strong>R$ 7,99</strong><br>Uma incrível palha italiana sabor oreo.</font></font></p>
                 <a href="#" class="btn btn-primary"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Adicionar ao carrinho</font></font></a>
             </div>
             </div>
