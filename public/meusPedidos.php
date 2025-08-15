@@ -42,6 +42,8 @@
             <td> {$precoTotal} </td>
             <td> {$row['status']} </td>
             <td> 
+            <a href='../pedido/update.php?id={$row['id_pedidos']}'>Editar Status ou Quantidade<a>
+            <a href='../pedido/delete.php?id={$row['id_pedidos']}'>Excluir<a>
             </td>
             </tr>";
     }
