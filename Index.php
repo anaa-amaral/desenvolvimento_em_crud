@@ -68,6 +68,23 @@
 
     <h1 class="text4"><strong> Promoções do dia <strong></h1><br>
 
+    <div class="container">
+        <div class="card-wrapper">
+            <ul class="card-list">
+                <li class="card-list">
+                    <img class="card-image" src="assets/bolo.jpg" alt="">
+                    <h2>bolo linduu</h2>
+                    <button class="card-button">
+                        <img src="assets/seta-esquerda.png" alt="">
+                        
+                    </button>
+                </li>
+
+            </ul>
+        </div>
+
+    </div>
+
     <hr class="new">
 
     <img class="logo2" src="assets/logo.png" alt="">
