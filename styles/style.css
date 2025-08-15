@@ -201,12 +201,14 @@ input:checked~.opcoes {
 }
 
 .card {
-    flex: 0 0 auto;
-    width: 200px;
-    height: 250px;
-    background: transparent;
-    text-align: center;
+    flex: 0 0 200px;
     scroll-snap-align: start;
+    text-align: center;
+    border: 2px solid #c2005c; 
+    border-radius: 10px;
+    background: white;         
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 .card img {
@@ -218,21 +220,21 @@ input:checked~.opcoes {
 .card h3 {
     font-style: italic;
     margin: 8px 0 4px;
-    color: #999;
+    color: #7f0046;
 }
 
 .card p {
     font-size: 12px;
     font-weight: bold;
-    color: #c2005c;
+    color: #c7006d;
 }
 
 .seta {
     background-color: #c2005c;
     border: none;
     color: white;
-    font-size: 20px;
-    padding: 10px;
+    font-size: 25px;
     border-radius: 50%;
-    cursor: pointer;
+    width: 50px;
+    height: 50px;
 }

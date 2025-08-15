@@ -91,32 +91,12 @@
                 <h3><em>Nome do doce</em></h3>
                 <p>RATATATATATA TATAATATATAT</p>
             </div>
-            <div class="card">
-                <img src="assets/bolo.jpg" alt="">
-                <h3><em>Nome do doce</em></h3>
-                <p>RATATATATATA TATAATATATAT</p>
-            </div>
-            <div class="card">
-                <img src="assets/bolo.jpg" alt="">
-                <h3><em>Nome do doce</em></h3>
-                <p>RATATATATATA TATAATATATAT</p>
-            </div>
-            <div class="card">
-                <img src="assets/bolo.jpg" alt="">
-                <h3><em>Nome do doce</em></h3>
-                <p>RATATATATATA TATAATATATAT</p>
-            </div>
-            <div class="card">
-                <img src="assets/bolo.jpg" alt="">
-                <h3><em>Nome do doce</em></h3>
-                <p>RATATATATATA TATAATATATAT</p>
-            </div>
         </div>
         <button class="seta direita">&#10095;</button>
     </div>
 
     <hr class="new">
-
+<!--parte final da tela-->
     <img class="logo2" src="assets/logo.png" alt="">
 
     <div class="parte4">
