@@ -44,12 +44,11 @@ if(isset($_SESSION['carrinho'])){
     
 }else{
     echo 'O carrinho está vazio!';
-}
-echo "<br> <a href='meusPedidos.php?id=1'>Visualizar meus pedidos</a>";
+};
 
 ?>
 
-<a href="pedidos.php">
+<a href='meusPedidos.php?id=1'>
         <h1>
             Ver status do meu pedido
         </h1><br>
