@@ -28,7 +28,7 @@
             </div>
     <!--link para a pagina pedidos.php-->
             <div id="textOpc">
-                <a href="pedidos/pedidos.php">
+                <a href="pedido/pedidos.php">
                     <h2 class="tituloOpc">
                     todos os Pedidos
                     </h2><br>
