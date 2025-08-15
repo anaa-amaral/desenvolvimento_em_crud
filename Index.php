@@ -26,9 +26,11 @@
             </div>
 
             <div id="textOpc">
-                <h2 class="tituloOpc">
+                <a href="public/carrinho.php">
+                    <h2 class="tituloOpc">
                     Carrinho
-                </h2><br>
+                    </h2><br>
+                </a>
             </div>
 
             <div id="textOpc">
