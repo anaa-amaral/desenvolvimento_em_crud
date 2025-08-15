@@ -9,8 +9,7 @@
         <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
     
 </head>
-<a href="../produto/create.php" class="btn btn-primary"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Criar produto</font></font></a>
-<h1 class="text5"><strong> Doces:<strong></h1><br>
+<a href="../produto/create.php" class="btn btn-primary criar"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Criar produto</font></font></a>
 
 
     <a href="../index.php">
