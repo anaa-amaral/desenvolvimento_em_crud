@@ -9,6 +9,7 @@
 <body>
 
  <label>
+    <!--aba de opções-->
         <input class="aba" type="checkbox">
         <div class="toggle" >
             <img class="icones" src="assets/imagemAba.png" alt="">
@@ -16,7 +17,7 @@
 
         <div class="opcoes">
             <h2 class="titulo">ABA DE OPÇÕES</h2><br>
-
+    <!--link para a pagina meusPedidos.php-->
             <div id="textOpc">
                 <a href="public/meusPedidos.php">
                     <h2 class="tituloOpc">
@@ -24,7 +25,7 @@
                     </h2><br>
                 </a>
             </div>
-
+    <!--link para a pagina carrinho.php-->
             <div id="textOpc">
                 <a href="public/carrinho.php">
                     <h2 class="tituloOpc">
@@ -32,7 +33,7 @@
                     </h2><br>
                 </a>
             </div>
-
+    <!--link para a pagina produtos.php-->
             <div id="textOpc">
                 <a href="public/produtos.php">
                     <h2 class="tituloOpc">
