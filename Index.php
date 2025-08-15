@@ -66,46 +66,6 @@
     </div>
 
     <hr class="new">
-
-<!--penultima parte da tela-->
-    <h1 class="text4"><strong> Promoções do dia <strong></h1><br>
-
-   <div id="carrosseis">
-
-        <button class="setaEsquerda" >&#10094;</button>
-
-        <div class="carousel">
-            <div class="card">
-                <img src="assets/bolo.jpg" alt="">
-                <h3><em>Nome do doce</em></h3>
-                <p>RATATATATATA TATAATATATAT</p>
-            </div>
-
-            <div class="card">
-                <img src="assets/bolo.jpg" alt="">
-                <h3><em>Nome do doce</em></h3>
-                <p>RATATATATATA TATAATATATAT</p>
-            </div>
-
-            <div class="card">
-                <img src="assets/bolo.jpg" alt="">
-                <h3><em>Nome do doce</em></h3>
-                <p>RATATATATATA TATAATATATAT</p>
-            </div>
-
-            <div class="card">
-                <img src="assets/bolo.jpg" alt="">
-                <h3><em>Nome do doce</em></h3>
-                <p>RATATATATATA TATAATATATAT</p>
-            </div>
-
-        </div>
-
-        <button class="setaDireita">&#10095;</button>
-
-    </div>
-
-    <hr class="new">
 <!--parte final da tela-->
     <img class="logo2" src="assets/logo.png" alt="">
 
