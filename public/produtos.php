@@ -9,14 +9,18 @@
         <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
     
 </head>
-<a href="../produto/create.php" class="btn btn-primary criar"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Criar produto</font></font></a>
 
+<div class="flex">
 
     <a href="../index.php">
         <h2 class="titulo4">
             ⬅️
         </h2><br>
     </a>
+
+    <a href="../produto/create.php" class="btn btn-primary criar"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Criar produto</font></font></a>
+
+</div>
 
 <h1 class="text5"><strong> Conheça nossos produtos:<strong></h1><br>
 

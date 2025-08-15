@@ -123,6 +123,11 @@ hr.new {
     margin: 1%;
 }
 
+.flex{
+    display: flex;
+    align-items: center;
+}
+
 .titulo{
     text-align: center;
 }
