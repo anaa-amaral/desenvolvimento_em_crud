@@ -6,6 +6,14 @@
     <title>Document</title>
 </head>
 <body>
+    <div class="flex">
+
+            <a href="../index.php">
+                <h2 class="titulo4">&#8592;</h2><br>
+            </a>
+
+        </div>
+        
     <h1>Meus pedidos</h1>
 </body>
 </html>
