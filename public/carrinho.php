@@ -48,3 +48,9 @@ if(isset($_SESSION['carrinho'])){
 
 ?>
 
+<a href="pedidos.php">
+        <h1>
+            Ver status do meu pedido
+        </h1><br>
+</a>
+
