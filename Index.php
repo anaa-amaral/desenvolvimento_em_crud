@@ -34,9 +34,11 @@
             </div>
 
             <div id="textOpc">
-                <h2 class="tituloOpc">
-                    Produtos
-                </h2><br>
+                <a href="public/produtos.php">
+                    <h2 class="tituloOpc">
+                        Produtos
+                    </h2><br>
+                </a>
             </div>
             
         </div>
