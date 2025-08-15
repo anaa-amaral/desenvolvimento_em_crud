@@ -11,7 +11,7 @@
 </head>
 
     <a href="../index.php">
-        <h2 class="tituloOpc">
+        <h2 class="titulo4">
             ⬅️
         </h2><br>
     </a>
