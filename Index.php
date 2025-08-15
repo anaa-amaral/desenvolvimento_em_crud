@@ -20,9 +20,17 @@
             <h2 class="titulo">ABA DE OPÇÕES</h2><br>
     <!--link para a pagina meusPedidos.php-->
             <div id="textOpc">
-                <a href="public/meusPedidos.php">
+                <a href="public/meusPedidos.php?id=1">
                     <h2 class="tituloOpc">
                     Meus pedidos
+                    </h2><br>
+                </a>
+            </div>
+    <!--link para a pagina pedidos.php-->
+            <div id="textOpc">
+                <a href="pedidos/pedidos.php">
+                    <h2 class="tituloOpc">
+                    todos os Pedidos
                     </h2><br>
                 </a>
             </div>
