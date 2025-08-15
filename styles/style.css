@@ -1,5 +1,6 @@
 body{
-    background-color: rgb(252, 119, 137);
+    background: #c20a47;
+    background: linear-gradient(0deg,#c20a47 0%, #fc7789 100%);
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: smaller;
@@ -179,3 +180,4 @@ input:checked~.opcoes {
     display: flex;
     flex-direction: column;
 }
+
