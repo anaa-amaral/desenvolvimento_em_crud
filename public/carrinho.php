@@ -7,15 +7,16 @@
     </head>
     <body>
         <h1>achou guria ou guri part2</h1>
+
+
     </body>
 </html>
 
 <?php
 include '../db.php';
 session_start();
-
-$pedidos = $_SESSION['carrinho'];
-if (isset($pedidos)) {
+if(isset($_SESSION['carrinho'])){
+    $pedidos = $_SESSION['carrinho'];
     echo "<form action='../pedido/finalizarCompra.php' method='POST'>
         <table border ='1'>
             <tr>
@@ -38,9 +39,12 @@ if (isset($pedidos)) {
     }
     echo "</table>
     <button type='submit'>Finalizar compra</button>
-    </form>";
+    </form>
+    <a href='../pedido/limparCarrinho.php'>Limpar o carrinho</a>";
+    
+}else{
+    echo 'O carrinho está vazio!';
 }
 
-echo 'O carrinho está vazio!';
-
 ?>
+

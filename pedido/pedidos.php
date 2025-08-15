@@ -32,7 +32,7 @@
     }
     echo "</table>";
 } else {
-    echo "Nenhum produto encontrado.";
+    echo "Nenhum pedido encontrado.";
 }
 
 $conn -> close();
